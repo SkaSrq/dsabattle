@@ -1,0 +1,63 @@
+.all-question {
+    /* padding-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px; */
+    padding: 10px 25px;
+    height: 100%;
+    max-Height: calc(100vh - 144px);
+}
+
+.table {
+    max-height: calc(100vh - 176px);
+    /* max-height: 100%; */
+}
+
+/******************************** Question */
+.split-main {
+    min-height: calc(100vh - 81px);
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+
+.left-split {
+    /* background-color: antiquewhite; */
+    min-height: calc(100vh - 81px);
+    min-width: 20%;
+}
+
+.right-split {
+    min-height: calc(100vh - 81px);
+    min-width: 20%;
+    /* background-color: blue; */
+}
+
+.block {
+    height: calc(100vh - 81px);
+}
+
+.code-area {
+    width: 100%;
+    height: calc(100vh - 147px);
+}
+
+.gutter {
+    background-color: #eee;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: calc(100vh - 87px);
+    margin: 8px 0;
+    border-radius: 10px;
+
+}
+
+.left-color {
+    background-color: gray;
+}
+
+.gutter.gutter-vertical {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAFAQMAAABo7865AAAABlBMVEVHcEzMzMzyAv2sAAAAAXRSTlMAQObYZgAAABBJREFUeF5jOAMEEAIEEFwAn3kMwcB6I2AAAAAASUVORK5CYII=');
+}
+
+.gutter.gutter-horizontal {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAeCAYAAADkftS9AAAAIklEQVQoU2M4c+bMfxAGAgYYmwGrIIiDjrELjpo5aiZeMwF+yNnOs5KSvgAAAABJRU5ErkJggg==');
+}
